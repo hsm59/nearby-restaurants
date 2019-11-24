@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Nearby Restaurants</string>
+    <string name="sf_restaurants_near">Showing you Restaurants in %s</string>
+    <string name="use_current_location">Use Current Location</string>
+    <string name="something_went_wrong">Something went wrong, Please try again</string>
+    <string name="str_loading">Loading..</string>
+    <string name="nothing_found">Nothing Found!</string>
+    <string name="no_internet_connection">No Internet Connection available</string>
+    <string name="location_not_avail">Location not available</string>
+    <string name="needs_location">App needs access to Location</string>
+    <string name="restaurant_thumbnail">Restaurant Thumbnail</string>
+    <string name="avg_cost_for_two">Cost for 2: %s</string>
+</resources>
