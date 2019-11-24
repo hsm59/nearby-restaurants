@@ -82,6 +82,8 @@ class MainActivity : AppCompatActivity(), GoogleApiClient.ConnectionCallbacks,
             when (it.status) {
                 Status.SUCCESS -> {
                     if (it.data != null && !it.data!!.nearbyRestaurants.isNullOrEmpty()) {
+                        if (nearbyRestaurantsList.isNotEmpty())
+                            nearbyRestaurantsList.clear()
                         nearbyRestaurantsList.addAll(it.data!!.nearbyRestaurants)
                         nearbyRestaurantAdapter.notifyDataSetChanged()
                         setEmptyState(false)
